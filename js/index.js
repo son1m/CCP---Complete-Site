@@ -26,3 +26,13 @@ let stadiaTileLayer = L.tileLayer('https://tiles.stadiamaps.com/tiles/osm_bright
 let sfo_marker = L.marker([37.618, -122.375]).addTo(myMap);
 let oak_marker = L.marker([37.710, -122.224]).addTo(myMap);
 let sjc_marker = L.marker([37.361, -121.928]).addTo(myMap);
+
+// accessibility feature 
+myMap.eachLayer(function(layer) {
+    if (layer.options.icon) {
+      var iconElement = layer.getElement();
+      if (iconElement) {
+        iconElement.removeAttribute('tabindex');
+      }
+    }
+  });
