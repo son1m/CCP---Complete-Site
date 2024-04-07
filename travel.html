@@ -1,0 +1,95 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Travel</title>
+ </head>
+ <body>
+    <header>
+        
+        <nav>
+            <a href = "#main-content" class="hidden">Skip to Main Content</a>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href="pets.html">Pets</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="travel.html" class="active">Travel</a></li>
+            </ul>
+        </nav>
+        <h1>Location</h1>
+
+         <!-- javascript -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <div class = map-container>
+    <div id="map" style="height: 45vh; width: 50%;"></div>
+</div>
+
+    
+    <!-- javascript -->
+
+    </header>
+    <main id="main-content">
+        <!-- <h1>Location</h1> -->
+        <div>
+        <h2>Yellow Stone National Park</h2>
+        
+        <div class="image-container">
+        <img src="images/yellowstone_sunset.jpg" alt="Yellow Stone National Park" width = "400">
+        <img src="images/yellowstone_cauldron.jpg" alt="Yellow Stone National Park" width = "400">
+        </div>
+
+        <p>Yellowstone is a place in Wyoming and it is known for its beautiful geysers and hot springs (the most out of any place on earth). </p>
+        <h3>Things I Like About Yellowstone</h3>
+            <ul>
+                <li>home to many buffalo</li>
+                <li>grizzly bears</li>
+                <li>wolves</li>
+                <li>Yellowstone Grand Canyon</li>
+                <li>Fun Fact: it rests on a dormant volcano</li>
+            </ul>
+
+
+        <h2>Fiji Islands</h2>
+
+        <div class="image-container">
+        <img src="images/fiji.jpg" alt="Fiji Islands Hut" width = "400">
+        <img src="images/fiji_2.jpg" alt="Fiji Islands and Ocean" width = "400">
+        </div>
+
+        <p>Fiji islands is a group of islands located in the South Pacific known for their palm beaches an private islands. </p>
+        <h3>Things I Like About the Fiji Islands</h3>
+            <ul>
+                <li>Clear blue water</li>
+                <li>Great vacation destination</li>
+                <li>Spas</li>
+                <li>Coral reefs</li>
+                <li>Lush forests</li>
+            </ul>
+
+            <h2>Niagara Falls </h2>
+            <div class="image-container2">
+            <!-- <h2>Niagara Falls </h2> -->
+            <div class = item1><img src="images/niagara_night.jpg" alt="Niagara Falls at night" width = "400"></div>
+            <div class = item2><img class = item2 src="images/niagara_sunrise.jpg" alt="Niagara Falls sunrise" width = "400"></div>
+            </div>
+
+            <h3>Things I Like About the Niagara Falls</h3>
+            <p>Niagara Falls is the most powerful waterfall in the world and a source of hydroelectric power. It is known for its beauty and can be seen from Canada and New York. </p>
+                <ul>
+                    <li>The night light (shown above)</li>
+                    <li>Niagara falls State park</li>
+                    <li>Boat tours</li>
+                </ul>
+        </div>
+</main>
+<script src="js/index.js"></script>
+ </body>
+ </html>

@@ -1,0 +1,64 @@
+
+/* phone view, keep at 375px */
+nav {
+    border-bottom: black 1px solid;
+}
+
+
+/* in this section I am taking away nav bullet points shaping the items into a column aligned to the center and setting the width and padding */
+nav ul {
+    list-style-type: none; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100%;  */
+    padding: 10px;
+    margin: 10px; 
+   
+}
+
+nav ul a {
+    display: block;
+    align-items: center;
+    background-color: white;
+    color: black;
+    text-align: center;
+    /* margin: 10px; */
+    border: 2px solid pink;
+    border-radius: 20px;
+    /* padding: 10px 15px; */
+ 
+    
+}
+
+/* nav ul, nav ul a {
+   box-sizing: border-box;
+} */
+
+
+
+
+
+/* body {
+    width: 70%;
+} */
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    /* align-items: center; */
+}
+
+
+
+<div>
+    <h3>Quiz Time!</h3>
+    <!-- typeform admin https://admin.typeform.com/form/wD6eeDuL/create?block=8b2c691a-1ef2-4ebb-848d-2a7589c22224 -->
+    <p>After exploring the other pages on this website, take this 4 question quiz to see what youve learned!</p>
+    <div data-tf-live="01HRMF4QF7CCYE8HCX9GFK16SE"></div><script src="//embed.typeform.com/next/embed.js"></script>
+</div>
+
+
+<h4>A new Song I'm Listening To</h4>
+<div class = music><iframe title = Spotify style="border-radius:12px" src="https://open.spotify.com/embed/track/1Rweq7vNjK4kZBbGrmxQsl?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
